@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Global Projet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/logo.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg " style="background-color: white">
+    <div class="container-fluid">
+        <a class="navbar-brand mx-5" href="#"><img src="image/logo.png" alt="" style="width: 50px;height: 70px"></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <form class="d-flex position-relative" role="search">
+            <input class="form-control me-2" type="search" placeholder="Nom du Cours..." style="font-family: 'playfair',sans-serif; box-shadow: none; padding-right:12px" aria-label="Search">
+            <button class="btn position-absolute top-0 start-0 " type="submit"><i class="fas fa-search me-3"style="color: black;border: none;"></i></button>
+        </form>
+
+        <div class="collapse navbar-collapse" id="navbarScroll">
+
+            <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                    <a class="nav-link actives px-3" aria-current="page" href="#">Boutique</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="pages/listecours/listecours.html">Liste de cours</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link px-5 ps-3 dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pages
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="pages/pages/formateurs.html">Formateurs</a></li>
+                        <li><a class="dropdown-item" href="pages/pages/blog.html">Blog</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <a href="#"><i class="fa-solid fa-cart-shopping" style="color: blue"></i></a>
+             <span>(0)</span>
+            <section class="d-none d-md-none d-lg-block mx-2 px-2">
+                <img src="image/testimonial-1.png"  style="width: 30px; height: 30px; border-radius: 100%" alt="">
+            </section>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-3">
+            <div class="card " style="border: none">
+                <img src="image/Hero%20BG.png" style="width: 100%;height: 500px" class="card-img" alt="...">
+                <div class="card-img-overlay">
+
+                    <h1 class="card-title mt-5" style="color: black; font-size: 80px; margin-right:580px;"><strong>Un Large Choix de <br>Cours</strong></h1>
+
+                    <p class="card-text "style="color: black; margin-left: 190px ">choisir 213000 video de cours en ligne avec &nbsp;&nbsp;&nbsp;<br> les mises à jour nouveauté chaque mois.</p>
+
+                    <button type="button" class="btn btn-primary btn-lg" style="border-radius: 50px; margin-left: 150px;height:70px">Explorer vos cours </button>
+
+                    <button type="button" class="btn btn-outline-warning btn-lg  fleche" style="border-radius: 50px; margin-left: 10px;height:70px">Commencer le cour</button>
+
+                    <img src="image/baniere.png" class="d-none  d-lg-block" style="width: 500px ;height: 400px; margin-left: 800px; margin-top: -300px" alt="">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--<div class="container-fluid position-relative" >
+    <img src="image/Hero%20BG.png" style="width:100%;height:100%" alt="">
+    <img src="image/baniere.png" style="width: 500px ;height: 400px; margin-left: 400px" class="position-absolute top-50 start-50 translate-middle"  alt="">
+    <h1 style="font-size: 80px;top: 50px; left:55px;text-align: center" class="position-absolute"><strong>Un Large Choix de <br>Cours</strong></h1>
+    <p class="position-absolute" style="top: 250px; left:200px; font-size: 20px;text-align: center"> choisir 213000 video de cours en ligne avec <br> les mises à jour nouveauté chaque mois</p>
+    <button type="button" class="btn btn-primary btn-lg position-absolute" style="border-radius: 50px; top: 330px;left: 200px;height:70px">Explorer vos cours </button>
+    <button type="button" class="btn btn-outline-warning btn-lg position-absolute fleche" style="border-radius: 50px; top: 330px;left: 400px;height:70px">Commencer le cour</button>
+
+    </div>-->
+    <div class="container mt-5">
+
+        <h2 class="mt-4" style="text-align: center">Feartured Courses</h2>
+
+        <p class="mt-2" style="text-align: center"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Accusantium <br>riores consequatur  deleniti error et harum id ipsa magni nemo voluptatum.</p>
+
+        <div class="row">
+            <div class="col-lg-3 col-md-6 g-4">
+                <div class="card position-relative" style="border: none">
+                    <img src="image/js.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star-half" style="color: #FFD43B;"></i><span><strong>4.20</strong> (2)</span>
+                        <br> <br>
+                        <h6 class="card-title"><strong>Cours complet de javascript</strong></h6>
+                        <br>
+                        <p class="card-text"><img src="image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp; par<em> Leon Dylan Wabo</em></p>
+                        <hr>
+                        <br>
+                        <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                        <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 g-4">
+                <div class="card position-relative" style="border: none">
+                    <img src="image/PHp.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i><span><strong>5.00</strong>(1)</span>
+                        <br> <br>
+                        <h6 class="card-title"><strong>Cours complet de PHP</strong></h6>
+                        <br>
+                        <p class="card-text"><img src="image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp;par <em>Gustave Gauthier</em></p>
+                        <hr>
+                        <br>
+                        <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                        <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 g-4">
+                <div class="card position-relative" style="border: none">
+                    <img src="image/adobePre.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i><span><strong>5.00</strong>(1)</span>
+                        <br> <br>
+                        <h6 class="card-title"><strong>Cours complet sur Adobe Pre</strong></h6>
+                        <br>
+                        <p class="card-text"><img src="image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp;par <em>Jhon Doe</em></p>
+                        <hr>
+                        <br>
+                        <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                        <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 g-4">
+                <div class="card position-relative" style="border: none">
+                <img src="image/adobe-after-effects.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i><span><strong>5.00</strong>(1)</span>
+                    <br> <br>
+                    <h6 class="card-title"><strong>Cours complet sur After Effect</strong></h6>
+                    <br>
+                    <p class="card-text"><img src="image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp;par <em>Igor Kollo</em></p>
+                    <hr>
+                    <br>
+                    <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                    <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-3 col-md-6 g-4">
+                <div class="card position-relative" style="border: none">
+                    <img src="image/canva.webp" class="card-img-top" style="height: 148px">
+                    <div class="card-body">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star-half" style="color: #FFD43B;"></i><span><strong>5.00</strong> (1)</span>
+                        <br> <br>
+                        <h6 class="card-title"><strong>Cours sur Canvas</strong></h6>
+                        <br>
+                        <p class="card-text"><img src="image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp; par<em> Bordel David</em></p>
+                        <hr>
+                        <br>
+                        <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                        <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 g-4">
+                <div class="card position-relative" style="border: none">
+                    <img src="image/flutter.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i><span><strong>5.00</strong>(1)</span>
+                        <br> <br>
+                        <h6 class="card-title"><strong>Cours complet sur FLUTTER</strong></h6>
+                        <br>
+                        <p class="card-text"><img src="image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp;par <em>Loic Pierre</em></p>
+                        <hr>
+                        <br>
+                        <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                        <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 g-4">
+                <div class="card position-relative" style="border: none">
+                    <img src="image/compta1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i><span><strong>5.00</strong>(1)</span>
+                        <br> <br>
+                        <h6 class="card-title"><strong>Cours sur la Comptabilte</strong></h6>
+                        <br>
+                        <p class="card-text"><img src="image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp;par <em>Rudy Nathan</em></p>
+                        <hr>
+                        <br>
+                        <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                        <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 g-4">
+                <div class="card position-relative" style="border: none">
+                    <img src="image/reseau1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i><span><strong>5.00</strong>(1)</span>
+                        <br> <br>
+                        <h6 class="card-title"><strong>Cours sur Reseau Info</strong></h6>
+                        <br>
+                        <p class="card-text"><img src="image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp;par <em>Justin Angu</em></p>
+                        <hr>
+                        <br>
+                        <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                        <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <a href="pages/listecours/listecours.html" class="btn  btn-primary "style="color: white; height: 60px; text-align: center; justify-items: center; padding-top: 10px; margin-top: 100px; border-radius: 50px">Parcourire tous les cours</a>
+
+    </div>
+    <section class="mt-5" style="background-color: gray">
+
+        <div class="row">
+            <div class="col-lg-3 col-md-2 g-4">
+                <i class="fa-solid fa-user mt-5 mx-5"style="color: blue; width: 100px; height: 100px"></i>
+            </div>
+            <div class="col-lg-3 col-md-2 g-4">
+                <i class="fa-solid fa-book mt-5 mx-5" style="color: blue; width: 100px; height: 100px"></i>
+            </div>
+            <div class="col-lg-3 col-md-2 g-4">
+                <i class="fa-solid fa-user mt-5 mx-5"style="color: blue; width: 100px; height: 100px"></i>
+            </div>
+            <div class="col-lg-3 col-md-2 g-4">
+                <i class="fa-solid fa-book mt-5 mx-5" style="color: blue; width: 100px; height: 100px"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5 container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="card mb-3" style="border: none">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="..." class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Art & Design</h5>
+                                <p class="card-text">25 Cours</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <i class="fa-solid fa-sack-dollar" style="width: 80px;height: 80px"></i>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Finance</h5>
+                                <p class="card-text">17 Cours</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card mb-3" >
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <i class="fa-solid fa-language" style="height: 80px; width: 80px"></i>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Langues</h5>
+                                <p class="card-text">83 Cours</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="..." class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Developpement</h5>
+                                <p class="card-text">112 Cours</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="card mb-3" style="border: none">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <i class="fa-solid fa-image" style="width: 80px; height: 80px"></i>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Photographie</h5>
+                                <p class="card-text">25 Cours</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card mb-3" style="border: none">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <i class="fa-solid fa-microphone" style="height: 80px;width: 80px"></i>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Audio Visuel</h5>
+                                <p class="card-text">25 Cours</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card mb-3"style="border: none">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <i class="fa-solid fa-book" style="height: 80px; width: 80px"></i>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Philosophie</h5>
+                                <p class="card-text">7 cours</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card mb-3" style="border: none">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="..." class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Art Oratoire</h5>
+                                <p class="card-text">53 Cours</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="card">
+            <img src="image/Home%20Cover.jpg" class="card-img opacity-50" style="height: 500px;" alt="...">
+            <div class="card-img-overlay">
+                <h1 class="card-title"style="font-size: 40px;text-align: center;padding-top: 190px;"><strong>Pour Avoir Les Offres Speciales
+                    <br> Et Les Cours Actualises</strong></h1>
+
+                <form class="d-flex position-relative mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Adresse email" style="border-bottom-right-radius:50px;width: 800px; margin-left:180px ;border-top-right-radius: 50px;height: 55px;font-family: 'playfair',sans-serif; box-shadow: none; padding-right:12px" aria-label="Search">
+                    <button class="btn position-absolute top-0 end-0 " style="border-radius: 50px; height: 55px; margin-right: 210px" type="submit">Enregistrer</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    section
+
+</div>
+hjoolhi <br>
+ugtokhli <br>
+nmgiuk,lih <br>
+nhijhlk
+jkhykjhli
+ghikuhojklj;;/'
+,mjkmjpkjp
+
+<script src="javascript/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

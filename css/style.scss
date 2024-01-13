@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:ital,wght@1,300&display=swap');
+
+
+.nav-link{
+  color:black;
+  transition: .5s;
+
+  &:hover,&.actives{
+    color: darkmagenta !important;
+  }
+  &:visited{
+    color: black;
+  }
+  &:hover{
+    border-bottom: 2px solid black;
+  }
+}
+.dropdown-item{
+  &:hover{
+    border-bottom: 2px solid black;
+  }
+}
+
+
+
+

@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GreenFood restaurant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../image/logo.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/listecours.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg " style="background-color: white">
+    <div class="container-fluid">
+        <a class="navbar-brand mx-5" href="../../index.html"><img src="../../image/logo.png" alt="" style="width: 50px;height: 70px"></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <form class="d-flex position-relative" role="search">
+            <input class="form-control me-2 " type="search" placeholder="Nom du Cours..." style="font-family: 'playfair',sans-serif" aria-label="Search">
+            <button class="btn position-absolute top-0 start-0 " type="submit"><i class="fas fa-search me-3"style="color: black;border: none;"></i></button>
+        </form>
+
+        <div class="collapse navbar-collapse" id="navbarScroll">
+
+            <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                    <a class="nav-link actives px-3" aria-current="page" href="../../index.html">Boutique</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="#">Liste de cours</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link px-5 ps-3 dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pages
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../pages/formateurs.html">Formateurs</a></li>
+                        <li><a class="dropdown-item" href="../pages/blog.html">Blog</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <a href="#"><i class="fa-solid fa-cart-shopping" style="color: blue"></i></a>
+            <span>(0)</span>
+            <section class="d-none d-md-none d-lg-block mx-2 px-2">
+                <img src="../../image/testimonial-1.png"  style="width: 30px; height: 30px; border-radius: 100%" alt="">
+            </section>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <section>
+        <div class="card">
+            <img src="../../image/ccna1.jpg" class="card-img opacity-50" style="height: 500px;" alt="...">
+            <div class="card-img-overlay">
+                <p class="card-title"style="font-size: 80px;text-align: center;padding-top: 180px; ">Cours</p>
+            </div>
+        </div>
+    </section>
+    <div class="container mt-5">
+        <section>
+            <select id="pet-select " class="mt-5">
+                <option value="">Tout</option>
+                <option value="Infographie">Infographie</option>
+                <option value="Reseau informatique">Reseau informatique</option>
+                <option value="Comptabilite et Gestion">Comptabilite et Gestion</option>
+                <option value="Programmation informatique">Programmation informatique</option>
+
+            </select>
+        </section>
+
+        <section id="canvas">
+            <div class="row mt-3">
+                <div class="col-lg-3 col-md-6 g-4" >
+                    <div class="card position-relative" style="border: none">
+                        <img src="../../image/canva.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star-half" style="color: #FFD43B;"></i><span><strong>4.20</strong> (2)</span>
+                            <br> <br>
+                            <h6 class="card-title"><strong>Cours complet de Canva</strong></h6>
+                            <br>
+                            <p class="card-text"><img src="../../image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp; par<em> Leon Dylan Wabo</em></p>
+                            <hr>
+                            <br>
+                            <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                            <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 g-4">
+                    <div class="card position-relative" style="border: none">
+                        <img src="../../image/Photoshop.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i><span><strong>5.00</strong>(1)</span>
+                            <br> <br>
+                            <h6 class="card-title"><strong>Cours complet de Photoshop</strong></h6>
+                            <br>
+                            <p class="card-text"><img src="../../image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp;par <em>Gustave Gauthier</em></p>
+                            <hr>
+                            <br>
+                            <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                            <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 g-4">
+                    <div class="card position-relative" style="border: none">
+                        <img src="../../image/adobePre.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i><span><strong>5.00</strong>(1)</span>
+                            <br> <br>
+                            <h6 class="card-title"><strong>Cours complet sur Adobe Pre</strong></h6>
+                            <br>
+                            <p class="card-text"><img src="../../image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp;par <em>Jhon Doe</em></p>
+                            <hr>
+                            <br>
+                            <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                            <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 g-4">
+                    <div class="card position-relative" style="border: none">
+                        <img src="../../image/adobe-after-effects.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i><span><strong>5.00</strong>(1)</span>
+                            <br> <br>
+                            <h6 class="card-title"><strong>Cours complet sur After Effect</strong></h6>
+                            <br>
+                            <p class="card-text"><img src="../../image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp;par <em>Igor Kollo</em></p>
+                            <hr>
+                            <br>
+                            <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                            <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="programmation">
+
+            <div class="row mt-3">
+                <div class="col-lg-3 col-md-6 g-4" >
+                    <div class="card position-relative" style="border: none">
+                        <img src="../../image/js.png" class="card-img-top" style="height: 148px">
+                        <div class="card-body">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star-half" style="color: #FFD43B;"></i><span><strong>5.00</strong> (1)</span>
+                            <br> <br>
+                            <h6 class="card-title"><strong>Cours complet de js</strong></h6>
+                            <br>
+                            <p class="card-text"><img src="../../image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp; par<em> Bordel David</em></p>
+                            <hr>
+                            <br>
+                            <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                            <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 g-4">
+                    <div class="card position-relative" style="border: none">
+                        <img src="../../image/flutter.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i><span><strong>5.00</strong>(1)</span>
+                            <br> <br>
+                            <h6 class="card-title"><strong>Cours complet sur FLUTTER</strong></h6>
+                            <br>
+                            <p class="card-text"><img src="../../image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp;par <em>Loic Pierre</em></p>
+                            <hr>
+                            <br>
+                            <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                            <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 g-4">
+                    <div class="card position-relative" style="border: none">
+                        <img src="../../image/node.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i><span><strong>5.00</strong>(1)</span>
+                            <br> <br>
+                            <h6 class="card-title"><strong>Cours sur node</strong></h6>
+                            <br>
+                            <p class="card-text"><img src="../../image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp;par <em>Rudy Nathan</em></p>
+                            <hr>
+                            <br>
+                            <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                            <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 g-4">
+                    <div class="card position-relative" style="border: none">
+                        <img src="../../image/react.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i><span><strong>5.00</strong>(1)</span>
+                            <br> <br>
+                            <h6 class="card-title"><strong>Cours sur react</strong></h6>
+                            <br>
+                            <p class="card-text"><img src="../../image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp;par <em>Justin Angu</em></p>
+                            <hr>
+                            <br>
+                            <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                            <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-lg-3 col-md-6 g-4" >
+                    <div class="card position-relative" style="border: none">
+                        <img src="../../image/laravel.png" class="card-img-top" style="height: 148px">
+                        <div class="card-body">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star-half" style="color: #FFD43B;"></i><span><strong>5.00</strong> (1)</span>
+                            <br> <br>
+                            <h6 class="card-title"><strong>Cours sur Laravel</strong></h6>
+                            <br>
+                            <p class="card-text"><img src="../../image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp; par<em> Bordel David</em></p>
+                            <hr>
+                            <br>
+                            <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                            <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 g-4">
+                    <div class="card position-relative" style="border: none">
+                        <img src="../../image/MongoDB.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i><span><strong>5.00</strong>(1)</span>
+                            <br> <br>
+                            <h6 class="card-title"><strong>Cours complet sur MongoBD</strong></h6>
+                            <br>
+                            <p class="card-text"><img src="../../image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp;par <em>Loic Pierre</em></p>
+                            <hr>
+                            <br>
+                            <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                            <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 g-4">
+                    <div class="card position-relative" style="border: none">
+                        <img src="../../image/reactnative.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i><span><strong>5.00</strong>(1)</span>
+                            <br> <br>
+                            <h6 class="card-title"><strong>Cours sur reactnative</strong></h6>
+                            <br>
+                            <p class="card-text"><img src="../../image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp;par <em>Rudy Nathan</em></p>
+                            <hr>
+                            <br>
+                            <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                            <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 g-4">
+                    <div class="card position-relative" style="border: none">
+                        <img src="../../image/PHp.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i><span><strong>5.00</strong>(1)</span>
+                            <br> <br>
+                            <h6 class="card-title"><strong>Cours sur Php</strong></h6>
+                            <br>
+                            <p class="card-text"><img src="../../image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp;par <em>Justin Angu</em></p>
+                            <hr>
+                            <br>
+                            <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                            <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="reseau">
+           <div class="row mt-3">
+               <div class="col-lg-3 col-md-6 g-4">
+                   <div class="card position-relative" style="border: none">
+                       <img src="../../image/ccna1.jpg" class="card-img-top" style="height: 148px">
+                       <div class="card-body">
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           <i class="fa-solid fa-star-half" style="color: #FFD43B;"></i><span><strong>5.00</strong> (1)</span>
+                           <br> <br>
+                           <h6 class="card-title"><strong>Cours securite infos</strong></h6>
+                           <br>
+                           <p class="card-text"><img src="../../image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp; par<em> Bordel David</em></p>
+                           <hr>
+                           <br>
+                           <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                           <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-lg-3 col-md-6 g-4">
+                   <div class="card position-relative" style="border: none">
+                       <img src="../../image/reseau1.jpg" class="card-img-top" alt="...">
+                       <div class="card-body">
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i><span><strong>5.00</strong>(1)</span>
+                           <br> <br>
+                           <h6 class="card-title"><strong>Cours sur reseau</strong></h6>
+                           <br>
+                           <p class="card-text"><img src="../../image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp;par <em>Loic Pierre</em></p>
+                           <hr>
+                           <br>
+                           <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                           <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-lg-3 col-md-6 g-4">
+                   <div class="card position-relative" style="border: none">
+                       <img src="../../image/reseau2.jpg" class="card-img-top" alt="...">
+                       <div class="card-body">
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i><span><strong>5.00</strong>(1)</span>
+                           <br> <br>
+                           <h6 class="card-title"><strong>Cours sur le LAN</strong></h6>
+                           <br>
+                           <p class="card-text"><img src="../../image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp;par <em>Rudy Nathan</em></p>
+                           <hr>
+                           <br>
+                           <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                           <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-lg-3 col-md-6 g-4">
+                   <div class="card position-relative" style="border: none">
+                       <img src="../../image/reseau3.jpg" class="card-img-top" alt="...">
+                       <div class="card-body">
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i><span><strong>5.00</strong>(1)</span>
+                           <br> <br>
+                           <h6 class="card-title"><strong>Cours sur CISCO</strong></h6>
+                           <br>
+                           <p class="card-text"><img src="../../image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp;par <em>Justin Angu</em></p>
+                           <hr>
+                           <br>
+                           <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                           <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+
+        <section id="gestion">
+            <div class="row mt-3">
+                <div class="col-lg-3 col-md-6 g-4">
+                    <div class="card position-relative" style="border: none">
+                        <img src="../../image/compta1.jpg" class="card-img-top" style="height: 148px">
+                        <div class="card-body">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star-half" style="color: #FFD43B;"></i><span><strong>5.00</strong> (1)</span>
+                            <br> <br>
+                            <h6 class="card-title"><strong>Cours sur les finances</strong></h6>
+                            <br>
+                            <p class="card-text"><img src="../../image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp; par<em> Bordel David</em></p>
+                            <hr>
+                            <br>
+                            <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                            <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 g-4">
+                    <div class="card position-relative" style="border: none">
+                        <img src="../../image/compta2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i><span><strong>5.00</strong>(1)</span>
+                            <br> <br>
+                            <h6 class="card-title"><strong>Cours sur Gestion Compta</strong></h6>
+                            <br>
+                            <p class="card-text"><img src="../../image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp;par <em>Loic Pierre</em></p>
+                            <hr>
+                            <br>
+                            <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                            <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 g-4">
+                    <div class="card position-relative" style="border: none">
+                        <img src="../../image/compta3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i><span><strong>5.00</strong>(1)</span>
+                            <br> <br>
+                            <h6 class="card-title"><strong>Cours Business Affaire</strong></h6>
+                            <br>
+                            <p class="card-text"><img src="../../image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp;par <em>Rudy Nathan</em></p>
+                            <hr>
+                            <br>
+                            <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                            <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 g-4">
+                    <div class="card position-relative" style="border: none">
+                        <img src="../../image/sage.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i><span><strong>5.00</strong>(1)</span>
+                            <br> <br>
+                            <h6 class="card-title"><strong>Cours sur SAGE SAARI</strong></h6>
+                            <br>
+                            <p class="card-text"><img src="../../image/testimonial-1.png" style= "width: 45px;height: 45px" alt="">&nbsp;&nbsp;par <em>Justin Angu</em></p>
+                            <hr>
+                            <br>
+                            <p class="position-absolute bottom-0 start-0"><strong>$250</strong></p>
+                            <a href="#" class="btn  position-absolute bottom-0 end-0"style="border-color: blue;color: blue"><i class="fa-solid fa-cart-shopping" style="color: blue"></i>Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="javascript/bootstrap.bundle.min.js"></script>
+</body>
+</html>
